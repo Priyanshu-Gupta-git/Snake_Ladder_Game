@@ -58,4 +58,4 @@ Congratulations
 Alice is victory 🥇
 ⏳ Game_time=> 120.45 Seconds
 Current_Data_and_time=25-01-2025  08:34:00
-**Linkedin:** https://www.linkedin.com/posts/priyanshu-gupta-a37464309_python-gameabrdevelopment-blazeforge-activity-7288754568627179520-lfa5?utm_source=share&utm_medium=member_android  
+Linkedin: https://www.linkedin.com/posts/priyanshu-gupta-a37464309_python-gameabrdevelopment-blazeforge-activity-7288754568627179520-lfa5?utm_source=share&utm_medium=member_android  
