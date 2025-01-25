@@ -16,6 +16,21 @@ Here's a quick overview of the code:
 - **move_players(player, position)**: This function checks if the player has landed on a snake or a ladder and moves them accordingly.
 - **play_game()**: This function handles the main game loop, including welcoming players, handling input, rolling the dice, moving players, and checking for a winner.
 
+## File Handling
+
+The game also involves file handling to keep track of player data. Here's how it works:
+- **Opening File**: The game opens a file named `Player_data.txt` in append mode to store player information and game results.
+- **Writing Data**: Player names, game duration, and the date and time are written to the file.
+- **Closing File**: The file is closed after writing all necessary data.
+
+## Time Tracking
+
+The game tracks the duration and logs the current date and time:
+- **start_time**: The game records the start time using `time.time()` at the beginning of the game.
+- **end_time**: The game records the end time when a player wins.
+- **Game Duration**: The duration is calculated by subtracting `start_time` from `end_time` and is displayed in seconds.
+- **Current Date and Time**: The game logs the current date and time using `time.strftime("%d-%m-%Y  %H:%M:%S")` when a player wins.
+
 ## Snakes and Ladders
 
 The positions of snakes and ladders are as follows:
@@ -41,3 +56,6 @@ Computer  is now at position=>3
 ...
 Congratulations
 Alice is victory 🥇
+⏳ Game_time=> 120.45 Seconds
+Current_Data_and_time=25-01-2025  08:34:00
+**Linkedin:** https://www.linkedin.com/posts/priyanshu-gupta-a37464309_python-gameabrdevelopment-blazeforge-activity-7288754568627179520-lfa5?utm_source=share&utm_medium=member_android  
